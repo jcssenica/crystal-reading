@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Italianno', cursive;
+    font-family: 'Pinyon Script', cursive;
+  }
+
+
+img {
+    width: 100%;
+}
+
+.welcome {
+    /* Crystal Paradise */
+
+    position: absolute;
+    width: 908px;
+    height: 187px;
+    left: 302px;
+    top: 333px;
+
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 187px;
+
+    color: #6100FF;
+
+
+}
+
+.backgrounImages {
+    height: 100vh;
+
+    position: block;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Img1 {
+    height: 100vh;
+
+    position: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainButton {
+    cursor: pointer;
+    text-decoration: none;
+    height: 50%;
+
+    /* Rectangle 13 */
+
+    position: absolute;
+    width: 486px;
+    height: 117px;
+    left: 513px;
+    top: 557px;
+
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 23px;
+
+}
+
+.Img3 {
+    height: 100vh;
+
+    position: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.ColorTitle {
+
+    position: absolute;
+    width: 908px;
+    height: 187px;
+    left: 302px;
+    top: 333px;
+
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 187px;
+
+    color: #ffffff;
+}
+.EffectTitle {
+
+    position: absolute;
+    width: 908px;
+    height: 187px;
+    left: 1000px;
+    top: 333px;
+
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 187px;
+
+    color: #ffffff;
+}
+
+label[for="all-colors"] {
+    position: absolute;
+    width: 908px;
+    height: 50px;
+    left: 302px;
+    top: 400px;
+
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 187px;
+
+    color: #ffffff;
+}
+.dropdown-content-colors {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 302px;
+    top: 520px;
+}
+
+label[for="all-effects"] {
+    position: absolute;
+    width: 908px;
+    height: 50px;
+    left: 1000px;
+    top: 400px;
+
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 187px;
+
+    color: #ffffff;
+}
+.dropdown-content-effects {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1000px;
+    top: 520px;
+}
