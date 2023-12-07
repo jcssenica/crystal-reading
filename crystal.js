@@ -35,10 +35,21 @@ const getCrystals = async function (colorValue) {
             crystalList.appendChild(listItem);
         });
 
+        Object.keys(crystalIDsJSON).forEach(async (key,value) => {
+            try{
+                crystalName = crystalIDsJOSN[key].name;
+            }catch(error){
+                console.log(error)
+            }
+            
+        })
+
     }catch(error) {
         console.log(error);
     }
 }
+
+
 
 /*
 get the list of crystals back 
